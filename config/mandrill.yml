@@ -1,0 +1,28 @@
+development: &defaults
+  timeout: 60
+
+  credentials:
+    app_api_key: <%= ENV['MANDRILL_APP_API_KEY'] %>
+
+  events:
+    inbound_event_key: <%= ENV['MANDRILL_INBOUND_WEBHOOK_KEY'] %>
+    click_event_key: <%= ENV['MANDRILL_CLICK_WEBHOOK_KEY'] %>
+
+
+qa:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+staging_db:
+  <<: *defaults
+
+prod_db:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+test:
+  <<: *defaults

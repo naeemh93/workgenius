@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_name: MyString
+  ts: 1
+  url: MyString
+  ip: MyString
+
+two:
+  event_name: MyString
+  ts: 1
+  url: MyString
+  ip: MyString
