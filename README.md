@@ -8,4 +8,4 @@ Code Flow:
 created succesfully, run  ruby background job and pass the data to 
 process through websockets using Action Cable in Rails.
 
-3) 
+3) Hanled Notifications after the message is saved in Database.
